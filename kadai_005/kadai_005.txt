@@ -1,0 +1,16 @@
+76  nano ~/Desktop/kadai_005/kadai_005.txt
+   77  mkdir git_challenge
+   78  mkdir git_challenge
+   79  cd ~/Desktop
+   80  mkdir git_challenge
+   81  cd git_challenge
+   82  git init
+   83  touch hello_world.txt
+   84  echo 'Hello, world!' >> hello_world.txt
+   85  git add hello_world.txt
+   86  git commit -m '1回目のコミット'
+   87  echo 'こんにちは、世界！' >> hello_world.txt
+   88  git add hello_world.txt
+   89  git commit -m '2回目のコミット'
+   90  git log --oneline
+   91  mkdir ~/Desktop/kadai_005
